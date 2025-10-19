@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Tells the browser to use UTF-8 character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Makes the page responsive on all devices -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- Links the external CSS file for styling -->
+    <title>Document</title>
+    <!-- The title that appears in the browser tab -->
+  </head>
+
+  <body>
+    <!-- Main form for temperature conversion -->
+    <form>
+      <h1>temperature conversion</h1>
+      <!-- Heading for the page -->
+
+      <!-- Input field for entering a number (temperature value) -->
+      <input id="mytext" value="0" type="number" /><br />
+
+      <!-- Radio button to convert Celsius to Fahrenheit -->
+      <input type="radio" id="toFahrenheit" name="unit" />
+      <label for="toFahrenheit">Celsius → Fahrenheit</label><br />
+
+      <!-- Radio button to convert Fahrenheit to Celsius -->
+      <input type="radio" id="celsius" name="unit" />
+      <label for="celsius">Fahrenheit → Celsius</label><br />
+
+      <!-- Button that calls the convert() function when clicked -->
+      <button type="button" id="mybutton" onclick="convert()">Submit</button>
+
+      <!-- Paragraph where the result will be displayed -->
+      <p id="result"></p>
+    </form>
+
+    <!-- Links to your external JavaScript file for functionality -->
+    <script src="index.js"></script>
+  </body>
+</html>

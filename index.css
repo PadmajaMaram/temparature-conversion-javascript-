@@ -1,0 +1,92 @@
+/* ================================
+   Basic Page Styling
+   ================================ */
+body {
+  font-family: Arial, sans-serif; /* Makes the text clean and readable */
+  background: linear-gradient(
+    135deg,
+    #74b9ff,
+    #a29bfe
+  ); /* Adds a nice gradient background */
+  height: 100vh; /* Makes body full height of the browser */
+  display: flex; /* Enables centering of the form */
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  margin: 0; /* Removes default browser margin */
+}
+
+/* ================================
+   Form Container
+   ================================ */
+form {
+  background-color: #ffffff; /* White background for contrast */
+  padding: 30px 40px; /* Adds space inside the box */
+  border-radius: 15px; /* Rounds the corners of the box */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds a soft shadow around the box */
+  text-align: center; /* Centers text and elements inside the form */
+  width: 300px; /* Fixes width of the form */
+}
+
+/* ================================
+    Heading Styling
+   ================================ */
+h1 {
+  color: #2d3436; /* Dark gray for better readability */
+  margin-bottom: 20px; /* Adds space below the heading */
+  font-size: 1.5em; /* Makes the heading slightly larger */
+}
+
+/* ================================
+   Input Field
+   ================================ */
+input[type="number"] {
+  width: 80%; /* Makes the input take most of the form width */
+  padding: 10px; /* Adds inner space inside input */
+  margin-bottom: 15px; /* Adds space below input */
+  border: 2px solid #74b9ff; /* Light blue border */
+  border-radius: 10px; /* Rounds input corners */
+  text-align: center; /* Centers text inside input */
+  font-size: 1em; /* Medium font size */
+}
+
+/* ================================
+   Radio Buttons & Labels
+   ================================ */
+label {
+  font-size: 1em; /* Normal readable size */
+  color: #2d3436; /* Dark gray color for labels */
+}
+
+input[type="radio"] {
+  margin: 10px 5px; /* Adds space around radio buttons */
+}
+
+/* ================================
+    Submit Button
+   ================================ */
+#mybutton {
+  background-color: #0984e3; /* Bright blue background */
+  color: white; /* White text color */
+  border: none; /* Removes default border */
+  border-radius: 10px; /* Smooth rounded corners */
+  padding: 10px 20px; /* Adds space inside button */
+  font-size: 1em; /* Medium text size */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  margin-top: 10px; /* Space above button */
+  transition: background 0.3s; /* Smooth hover color change */
+}
+
+/* Change color slightly when hovered */
+#mybutton:hover {
+  background-color: #74b9ff;
+}
+
+/* ================================
+   Result Text
+   ================================ */
+#result {
+  font-size: 1.2em; /* Slightly larger font for visibility */
+  margin-top: 20px; /* Space above result */
+  font-weight: bold; /* Bold text */
+  color: #2d3436; /* Dark color for good contrast */
+}
